@@ -1,0 +1,26 @@
+{
+    "os": "Linux-5.11.0-37-generic-x86_64-with-glibc2.10",
+    "python": "3.8.8",
+    "heartbeatAt": "2021-10-26T09:14:10.187764",
+    "startedAt": "2021-10-26T09:14:06.402723",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 2080 Super with Max-Q Design",
+    "gpu_count": 1,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [
+        "-f",
+        "/home/hebah/.local/share/jupyter/runtime/kernel-df7ca016-dc02-4536-ad06-270a48fed762.json"
+    ],
+    "state": "running",
+    "program": "simple-sequential-76ac5b73-da47-4844-85cf-7623d7613c74.ipynb",
+    "root": "/home/hebah/Projects/learning-ml",
+    "git": {
+        "remote": "https://github.com/mustafah/learning-ml.git",
+        "commit": "aeb7eb1f438d8185dead542dd55858600536920e"
+    },
+    "email": "me@mustafah.me",
+    "host": "tensorbook",
+    "username": "hebah",
+    "executable": "/home/hebah/anaconda3/bin/python"
+}
