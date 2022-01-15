@@ -47,7 +47,7 @@ class VisualizeHelper:
         axes.grid()
         axes.plot(x,y)
         
-        if (self.i >= self.size):
+        if (self.i >= self.size or self.size == 1):
             plt.show()
             
     def draw(self, x = None, y = None, start = -10, end = 10, period = 1, title = ''):
@@ -66,7 +66,7 @@ class VisualizeHelper:
             axes.set_title(title)
             
         axes.plot(x,y)
-        if (self.i >= self.size):
+        if (self.i >= self.size or self.size == 1):
             plt.show()
             
     def drawCounts(self, y, title = ''):
@@ -87,7 +87,7 @@ class VisualizeHelper:
         sns.histplot(y, discrete = True, ax = axes)
         # axes.grid()
         
-        if (self.i >= self.size):
+        if (self.i >= self.size or self.size == 1):
             plt.show()
     
         
